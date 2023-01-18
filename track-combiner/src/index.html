@@ -1,0 +1,8 @@
+<button class="button ripple" onclick="run()">Combine</button>
+<button class="button ripple" onclick="copy()">Copy</button>
+<div class="tracks-container">
+	<textarea class="container focus ripple" id="input1" onclick="this.select()" spellcheck="false" placeholder="Track 1"></textarea>
+	<textarea class="container focus ripple" id="input2" onclick="this.select()" spellcheck="false" placeholder="Track 2"></textarea>
+	<button class="button ripple" onclick="add()">Add Track</button>
+</div>
+<textarea id="output" class="ripple" placeholder="Combined Track" onclick="this.select()" style="width: 460px; height: 300px" readonly></textarea>
